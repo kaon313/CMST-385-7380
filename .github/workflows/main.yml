@@ -8,8 +8,6 @@
 
 #Deploy HTML Files to AppService - CMST385-klee198
 
-name: Deploy HTML Files to AppService - CMST385
-
 on:
 
   push:
