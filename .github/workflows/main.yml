@@ -7,11 +7,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: windows-latest
-     steps:
-    - uses: actions/checkout@main
-    - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v1
-      with:
-        app-name: 'CMST385-klee198'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.APPSERVICECMST385 }}
+    steps:
+      - uses: actions/checkout@main
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v1
+        with:
+          app-name: 'CMST385-klee198'
+          slot-name: 'production'
+          publish-profile: ${{ secrets.APPSERVICECMST385 }}
