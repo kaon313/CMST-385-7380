@@ -1,12 +1,4 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
- 
-
-#Principles of Web Design and Technology I
-
-#Deploy HTML Files to AppService - CMST385-klee198
+name: Deploy HTML Files to AppService - CMST385-klee198
 
 on:
 
